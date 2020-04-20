@@ -1,0 +1,28 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "description": "Runs OCR test on the image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/din92/ocr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/din92/ocr/issues"
+  },
+  "homepage": "https://github.com/din92/ocr#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "path": "^0.12.7",
+    "tesseract.js": "^2.1.1"
+  }
+}
